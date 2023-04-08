@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> form task</title>
+<link href="css/style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Make an Appointment</h1>
+<div>
+<i class="fa-solid fa-circle"></i>
+<i class="fa-solid fa-circle fd-blue"></i>
+<i class="fa-solid fa-circle"></i>
+</div>
+<p>You should make an appointment by calling or by email.When making an appointment you should give the person your name and the reason for wanting an appointment.You should also ask the amount of time the appointment will take and if you should expect a wait time prior to the appointment.</p>
+<input type="text" id="name" placeholder="Your Name">
+<input type="text" id="mail" placeholder="Your Email">
+<input type="text" id="number" placeholder="Your Number"><br><br>
+<input type="text" id="date" placeholder=" Appointment Date">
+<select for="dept" >
+<option value=""disabled selected hidden>Select Department</option>
+<option value="1">Gynecology</option>
+<option value="2">Neurology</option>
+<option value="3">Dentist</option>
+</select>
+<select for="doctor" >
+<option value=""disabled selected hidden>Select Doctor</option>
+<option value="1">Dr.Abinaya</option>
+<option value="2">Dr.Thennavan</option>
+<option value="3">Dr.Natesan</option>
+</select><br><br>
+
+<textarea rows="10" cols="125">Message (Optional)
+</textarea><br><br>
+<button class="fd-button">Make an Appointment</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+	text-align:center;
+	background-color: aliceblue;
+	}
+input,select{
+	width: 300px;
+    height: 40px;
+	text-align:left;
+	border: 0.5px solid black;
+}
+
+textarea{
+	text-align:left;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.fd-blue{
+	color: dodgerblue;
+}
+.fd-button{
+	background-color: dodgerblue;
+	padding: 10px;
+	border-radius:12px;
+}
